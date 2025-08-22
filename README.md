@@ -14,17 +14,6 @@ Aprender a utilizar vistas como TextView, EditText, AutoCompleteTextView, Button
 * `WidgetsActivity`: Práctica con CheckBox, Switch, ProgressBar y SeekBar.
 * `LayoutsActivity`: Ejemplos de LinearLayout horizontal, FrameLayout y ScrollView.
 
-**Mejoras:**
-
-* Ajustes de diseño para que la interfaz sea más clara y agradable.
-* Uso de colores y márgenes consistentes.
-* Inclusión de botones de regreso para mejorar la navegación.
-
-**Errores solucionados:**
-
-* Eliminación de referencias a recursos inexistentes (`rounded_edittext_bg`).
-* Ajuste de colores y estilos para compatibilidad con la app.
-
 **Cómo usar:**
 
 1. Abrir el proyecto en Android Studio (Java, API 24).
