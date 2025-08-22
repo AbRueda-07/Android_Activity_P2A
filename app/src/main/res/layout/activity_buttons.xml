@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="24dp"
+    tools:context=".ButtonsActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:text="Vistas de Botones"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/btnNormal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Botón Normal"
+        android:layout_marginBottom="16dp" />
+
+    <ImageButton
+        android:id="@+id/btnImagen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@android:drawable/ic_menu_camera"
+        android:contentDescription="Botón con imagen de cámara"
+        android:backgroundTint="@color/teal_200"
+        android:padding="16dp"
+        android:layout_marginBottom="16dp" />
+
+    <RadioButton
+        android:id="@+id/rbOpcion1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Opción 1"
+        android:minHeight="48dp"
+        android:layout_marginBottom="16dp" />
+
+    <ToggleButton
+        android:id="@+id/tbEjemplo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textOff="Estado Desactivado"
+        android:textOn="Estado Activado"
+        android:minHeight="48dp" />
+
+    <Button
+        android:id="@+id/btnVolverButtons"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Volver" />
+
+</LinearLayout>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".TextActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="Vistas de Texto"
+        android:textSize="20sp"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/tvEjemplo1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ejemplo de TextView"
+        android:padding="8dp"
+        android:paddingBottom="8dp"/>
+
+    <EditText
+        android:id="@+id/etEjemplo2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Escribe en EditText"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:background="@android:color/white"
+        android:padding="12dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"/>
+
+    <AutoCompleteTextView
+        android:id="@+id/actvEjemplo3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:completionHint="Ejemplo de AutoCompleteTextView"
+        android:hint="Escribe aquí"
+        android:minHeight="48dp"
+        android:background="@android:color/white"
+        android:padding="12dp"
+        android:layout_marginBottom="16dp" />
+
+    <MultiAutoCompleteTextView
+        android:id="@+id/mactvEjemplo4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Escribe múltiples textos"
+        android:completionHint="Ejemplo de MultiAutoCompleteTextView"
+        android:minHeight="48dp"
+        android:padding="12dp" />
+
+    <Button
+        android:id="@+id/btnVolverText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Volver"/>
+
+</LinearLayout>
